@@ -11,14 +11,14 @@ When running locally (`npm run dev`):
 
 | Module | Route | Description |
 | :--- | :--- | :--- |
-| **Command Center** | [`/dashboard`](http://localhost:5174/dashboard) | Executive KPIs, risk distribution, trends & live feeds |
-| **AI Risk Prediction Studio** | [`/predict`](http://localhost:5174/predict) | Multi-factor scenario simulation, gauge & XAI breakdown |
-| **Accident Analytics & OLAP** | [`/analytics`](http://localhost:5174/analytics) | Multi-attribute sliced charts and visual distributions |
-| **Geospatial Hotspots Map** | [`/hotspots`](http://localhost:5174/hotspots) | GIS radar heatmap, coordinate clusters & junction intelligence |
-| **Accident Data Explorer** | [`/accidents`](http://localhost:5174/accidents) | Searchable warehouse table with multi-sorting & CSV export |
-| **Dataset Upload Studio** | [`/upload`](http://localhost:5174/upload) | CSV drag-and-drop parser, ETL pipeline & data validation |
-| **Model Benchmarks (ML)** | [`/model`](http://localhost:5174/model) | KNN vs Logistic Regression vs SVM benchmarks & confusion matrix |
-| **DMDW Pipeline & Star Schema** | [`/workflow`](http://localhost:5174/workflow) | 6-stage lifecycle, Star Schema dimensional model & OLAP cube |
+| **Command Center** | [`/dashboard`](https://dm-project-roadsafe-ai.vercel.app/dashboard) | Executive KPIs, risk distribution, trends & live feeds |
+| **AI Risk Prediction Studio** | [`/predict`](https://dm-project-roadsafe-ai.vercel.app/predict) | Multi-factor scenario simulation, gauge & XAI breakdown |
+| **Accident Analytics & OLAP** | [`/analytics`](https://dm-project-roadsafe-ai.vercel.app/analytics) | Multi-attribute sliced charts and visual distributions |
+| **Geospatial Hotspots Map** | [`/hotspots`](https://dm-project-roadsafe-ai.vercel.app/hotspots) | GIS radar heatmap, coordinate clusters & junction intelligence |
+| **Accident Data Explorer** | [`/accidents`](https://dm-project-roadsafe-ai.vercel.app/accidents) | Searchable warehouse table with multi-sorting & CSV export |
+| **Dataset Upload Studio** | [`/upload`](https://dm-project-roadsafe-ai.vercel.app/upload) | CSV drag-and-drop parser, ETL pipeline & data validation |
+| **Model Benchmarks (ML)** | [`/model`](https://dm-project-roadsafe-ai.vercel.app/model) | KNN vs Logistic Regression vs SVM benchmarks & confusion matrix |
+| **DMDW Pipeline & Star Schema** | [`/workflow`](https://dm-project-roadsafe-ai.vercel.app/workflow) | 6-stage lifecycle, Star Schema dimensional model & OLAP cube |
 
 ---
 
@@ -56,19 +56,19 @@ The platform follows a unified, modern dark AI analytics design language:
 
 | 🎯 Command Center Dashboard | 🧠 AI Risk Prediction Studio |
 | :---: | :---: |
-| [![Command Center Dashboard](docs/screenshots/dashboard.png)](http://localhost:5174/dashboard) | [![AI Risk Prediction Studio](docs/screenshots/predict.png)](http://localhost:5174/predict) |
+| [![Command Center Dashboard](docs/screenshots/dashboard.png)](https://dm-project-roadsafe-ai.vercel.app/dashboard) | [![AI Risk Prediction Studio](docs/screenshots/predict.png)](https://dm-project-roadsafe-ai.vercel.app/predict) |
 
 | 🗺️ High-Risk Geospatial Hotspots | 📁 Dataset Upload & Processing Studio |
 | :---: | :---: |
-| [![Geospatial Hotspots Map](docs/screenshots/hotspots.png)](http://localhost:5174/hotspots) | [![Dataset Upload Studio](docs/screenshots/upload.png)](http://localhost:5174/upload) |
+| [![Geospatial Hotspots Map](docs/screenshots/hotspots.png)](https://dm-project-roadsafe-ai.vercel.app/hotspots) | [![Dataset Upload Studio](docs/screenshots/upload.png)](https://dm-project-roadsafe-ai.vercel.app/upload) |
 
 | 📊 Multidimensional Analytics & OLAP | 🔬 ML Benchmarks & Confusion Matrix |
 | :---: | :---: |
-| [![Accident Analytics](docs/screenshots/analytics.png)](http://localhost:5174/analytics) | [![Model Benchmarks](docs/screenshots/model.png)](http://localhost:5174/model) |
+| [![Accident Analytics](docs/screenshots/analytics.png)](https://dm-project-roadsafe-ai.vercel.app/analytics) | [![Model Benchmarks](docs/screenshots/model.png)](https://dm-project-roadsafe-ai.vercel.app/model) |
 
 | 🗄️ Accident Data Warehouse Explorer | 🏗️ DMDW Pipeline & Star Schema |
 | :---: | :---: |
-| [![Accident Data Explorer](docs/screenshots/accidents.png)](http://localhost:5174/accidents) | [![DMDW Architecture](docs/screenshots/workflow.png)](http://localhost:5174/workflow) |
+| [![Accident Data Explorer](docs/screenshots/accidents.png)](https://dm-project-roadsafe-ai.vercel.app/accidents) | [![DMDW Architecture](docs/screenshots/workflow.png)](https://dm-project-roadsafe-ai.vercel.app/workflow) |
 
 ---
 
@@ -338,7 +338,7 @@ npm install
 ```bash
 npm run dev
 ```
-Open **[http://localhost:5174](http://localhost:5174)** in your web browser.
+Open **[https://dm-project-roadsafe-ai.vercel.app](https://dm-project-roadsafe-ai.vercel.app)** in your web browser.
 
 ### 4. Build for Production
 ```bash
